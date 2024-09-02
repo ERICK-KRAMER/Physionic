@@ -12,7 +12,7 @@ export function Header() {
                     <button>Contact</button>
                 </nav>
             </div>
-            <button className="bg-blue-400 px-3 py-4 text-center flex flex-row gap-4 rounded-md text-white font-medium">Get Quote Now <ArrowRight /></button>
+            <button className="bg-sky-400 px-6 py-4 text-center flex flex-row gap-4 rounded-md text-white font-medium">Get Quote Now <ArrowRight /></button>
         </header>
     )
 }
