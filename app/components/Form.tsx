@@ -1,6 +1,6 @@
 export function Form() {
     return (
-        <form className="bg-white rounded-md w-fit p-4 space-y-5">
+        <form className="bg-white rounded-md p-4 space-y-5">
             <h1 className="text-3xl font-bold text-center px-4 py-4">Book Appointment</h1>
             <div className="flex flex-col space-y-2">
                 <label htmlFor="name" className="font-bold text-sm">Name *</label>
