@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { Form } from "./components/Form";
 import { Header } from "./components/Header";
-import { Star } from "lucide-react";
+import { ChevronRight, Star } from "lucide-react";
 
 export default function Home() {
   return (
@@ -33,11 +33,11 @@ export default function Home() {
       <section className="container mx-auto p-20">
         <div className="space-y-4 flex flex-col justify-center items-center">
           <h1 className="text-slate-800 text-5xl font-extrabold">Leading Medicine</h1>
-          <p className="text-sm w-[420px] text-center ">Problems trying to resolve the conflict between
+          <p className="text-sm w-[420px] text-center text-gray-400">Problems trying to resolve the conflict between
             the two major realms of Classical physics: Newtonian mechanics </p>
 
           {/* Card */}
-          <div className="flex flex-row gap-10 p-6">
+          <div className="flex flex-row gap-10 p-6 mt-10">
             <div className="border border-sky-300 rounded-xl">
               <div className="bg-sky-300 w-[300px] rounded-t-lg p-4 flex flex-row justify-start items-center gap-6 pl-8">
                 <div className="rounded-full flex items-center justify-center w-16 h-16 bg-white">
@@ -141,7 +141,7 @@ export default function Home() {
           </div>
 
           <h1 className="text-slate-800 text-5xl font-extrabold pt-20">Leading Medicine</h1>
-          <p className="text-sm w-[420px] text-center ">Problems trying to resolve the conflict between
+          <p className="text-sm w-[420px] text-center text-gray-400">Problems trying to resolve the conflict between
             the two major realms of Classical physics: Newtonian mechanics </p>
 
           {/* card */}
@@ -270,6 +270,82 @@ export default function Home() {
             </div>
           </div>
         </div>
+
+        <section className="container mx-auto p-20">
+          <div className="space-y-4 flex flex-col justify-center items-center">
+            <h1 className="text-slate-800 text-5xl font-extrabold pt-20">FAQ</h1>
+            <p className="text-sm w-[420px] text-center text-gray-400">Problems trying to resolve the conflict between
+              the two major realms of Classical physics: Newtonian mechanics </p>
+          </div>
+
+          <div className="grid grid-cols-3 place-items-center mt-20 ">
+            <div className="relative w-fit p-8 py-4">
+              <ChevronRight className="text-sky-400 absolute top-3 left-1" />
+              <h3 className="text-lg font-bold text-slate-800 w-[230px]">The quick fox jumps over the
+                lazy dog</h3>
+              <p className="text-sm text-gray-400 w-[180px]">Things on a very small scale
+                behave like nothing</p>
+            </div>
+            <div className="relative w-fit p-8 py-4">
+              <ChevronRight className="text-sky-400 absolute top-3 left-1" />
+              <h3 className="text-lg font-bold text-slate-800 w-[230px]">The quick fox jumps over the
+                lazy dog</h3>
+              <p className="text-sm text-gray-400 w-[180px]">Things on a very small scale
+                behave like nothing</p>
+            </div>
+            <div className="relative w-fit p-8 py-4">
+              <ChevronRight className="text-sky-400 absolute top-3 left-1" />
+              <h3 className="text-lg font-bold text-slate-800 w-[230px]">The quick fox jumps over the
+                lazy dog</h3>
+              <p className="text-sm text-gray-400 w-[180px]">Things on a very small scale
+                behave like nothing</p>
+            </div>
+            <div className="relative w-fit p-8 py-4">
+              <ChevronRight className="text-sky-400 absolute top-3 left-1" />
+              <h3 className="text-lg font-bold text-slate-800 w-[230px]">The quick fox jumps over the
+                lazy dog</h3>
+              <p className="text-sm text-gray-400 w-[180px]">Things on a very small scale
+                behave like nothing</p>
+            </div>
+            <div className="relative w-fit p-8 py-4">
+              <ChevronRight className="text-sky-400 absolute top-3 left-1" />
+              <h3 className="text-lg font-bold text-slate-800 w-[230px]">The quick fox jumps over the
+                lazy dog</h3>
+              <p className="text-sm text-gray-400 w-[180px]">Things on a very small scale
+                behave like nothing</p>
+            </div>
+            <div className="relative w-fit p-8 py-4">
+              <ChevronRight className="text-sky-400 absolute top-3 left-1" />
+              <h3 className="text-lg font-bold text-slate-800 w-[230px]">The quick fox jumps over the
+                lazy dog</h3>
+              <p className="text-sm text-gray-400 w-[180px]">Things on a very small scale
+                behave like nothing</p>
+            </div>
+            <div className="relative w-fit p-8 py-4">
+              <ChevronRight className="text-sky-400 absolute top-3 left-1" />
+              <h3 className="text-lg font-bold text-slate-800 w-[230px]">The quick fox jumps over the
+                lazy dog</h3>
+              <p className="text-sm text-gray-400 w-[180px]">Things on a very small scale
+                behave like nothing</p>
+            </div>
+            <div className="relative w-fit p-8 py-4">
+              <ChevronRight className="text-sky-400 absolute top-3 left-1" />
+              <h3 className="text-lg font-bold text-slate-800 w-[230px]">The quick fox jumps over the
+                lazy dog</h3>
+              <p className="text-sm text-gray-400 w-[180px]">Things on a very small scale
+                behave like nothing</p>
+            </div>
+            <div className="relative w-fit p-8 py-4">
+              <ChevronRight className="text-sky-400 absolute top-3 left-1" />
+              <h3 className="text-lg font-bold text-slate-800 w-[230px]">The quick fox jumps over the
+                lazy dog</h3>
+              <p className="text-sm text-gray-400 w-[180px]">Things on a very small scale
+                behave like nothing</p>
+            </div>
+          </div>
+        </section>
+
+
 
       </section>
 
