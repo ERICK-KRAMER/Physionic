@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { Form } from "./components/Form";
 import { Header } from "./components/Header";
-import { ChevronRight, Star } from "lucide-react";
+import { Check, ChevronRight, Star } from "lucide-react";
 
 export default function Home() {
   return (
@@ -30,7 +30,7 @@ export default function Home() {
 
       </section>
 
-      <section className="container mx-auto p-20">
+      <section className="container mx-auto p-16 space-y-4">
         <div className="space-y-4 flex flex-col justify-center items-center">
           <h1 className="text-slate-800 text-5xl font-extrabold">Leading Medicine</h1>
           <p className="text-sm w-[420px] text-center text-gray-400">Problems trying to resolve the conflict between
@@ -271,7 +271,7 @@ export default function Home() {
           </div>
         </div>
 
-        <section className="container mx-auto p-20">
+        <section className="container mx-auto p-16">
           <div className="space-y-4 flex flex-col justify-center items-center">
             <h1 className="text-slate-800 text-5xl font-extrabold pt-20">FAQ</h1>
             <p className="text-sm w-[420px] text-center text-gray-400">Problems trying to resolve the conflict between
@@ -345,7 +345,201 @@ export default function Home() {
           </div>
         </section>
 
+        <section className="container mx-auto p-16 space-y-10">
 
+          <div className="space-y-4 flex flex-col justify-center items-center">
+            <h1 className="text-slate-800 text-5xl font-extrabold pt-20">Pricing</h1>
+            <p className="text-sm w-[420px] text-center text-gray-400">Problems trying to resolve the conflict between
+              the two major realms of Classical physics: Newtonian mechanics </p>
+          </div>
+
+          <div className="flex flex-row items-end justify-center gap-1">
+            <div className="border border-sky-400 rounded-xl p-8 w-fit flex flex-col justify-center items-center gap-4">
+              <h2 className="text-3xl font-extrabold">Free</h2>
+              <p className="text-gray-400 w-[150px] text-center">Organize across all
+                apps by hand</p>
+              <span className="text-sky-400 flex flex-row items-center gap-2">
+                <p className="text-6xl">0</p>
+                <span>
+                  <p>$</p>
+                  <p>Per Month</p>
+                </span>
+              </span>
+              <ul className="space-y-3">
+                <li className="flex flex-row items-center gap-3">
+                  <div className=" bg-green-400 w-8 h-8 rounded-full flex items-center justify-center">
+                    <Check className="text-white" />
+                  </div>
+                  <p>Unlimited product updates
+                  </p>
+                </li>
+                <li className="flex flex-row items-center gap-3">
+                  <div className=" bg-green-400 w-8 h-8 rounded-full flex items-center justify-center">
+                    <Check className="text-white" />
+                  </div>
+                  <p>Unlimited product updates
+                  </p>
+                </li>
+                <li className="flex flex-row items-center gap-3">
+                  <div className=" bg-green-400 w-8 h-8 rounded-full flex items-center justify-center">
+                    <Check className="text-white" />
+                  </div>
+                  <p>Unlimited product updates
+                  </p>
+                </li>
+                <li className="flex flex-row items-center gap-3">
+                  <div className=" bg-green-400 w-8 h-8 rounded-full flex items-center justify-center">
+                    <Check className="text-white" />
+                  </div>
+                  <p>Unlimited product updates
+                  </p>
+                </li>
+                <li className="flex flex-row items-center gap-3">
+                  <div className=" bg-gray-300 w-8 h-8 rounded-full flex items-center justify-center">
+                    <Check className="text-white" />
+                  </div>
+                  <p>
+                    1GB  Cloud storage
+                  </p>
+                </li>
+                <li className="flex flex-row items-center gap-3">
+                  <div className=" bg-gray-300 w-8 h-8 rounded-full flex items-center justify-center">
+                    <Check className="text-white" />
+                  </div>
+                  <p>
+                    Email and community
+                    support
+                  </p>
+                </li>
+              </ul>
+              <button className="bg-sky-400 font-bold px-10 py-4 rounded-lg text-white w-full mt-2">Try for free</button>
+            </div>
+
+
+            <div className="bg-slate-800 text-gray-200 border border-sky-400 rounded-xl p-8 py-12 w-fit flex flex-col justify-center items-center gap-4">
+              <h2 className="text-3xl font-extrabold">STANDARD</h2>
+              <p className="text-gray-400 w-[150px] text-center">Organize across all
+                apps by hand</p>
+              <span className="text-sky-400 flex flex-row items-center gap-2">
+                <p className="text-6xl">9.99</p>
+                <span>
+                  <p>$</p>
+                  <p>Per Month</p>
+                </span>
+              </span>
+              <ul className="space-y-3">
+                <li className="flex flex-row items-center gap-3">
+                  <div className=" bg-green-400 w-8 h-8 rounded-full flex items-center justify-center">
+                    <Check className="text-white" />
+                  </div>
+                  <p>Unlimited product updates
+                  </p>
+                </li>
+                <li className="flex flex-row items-center gap-3">
+                  <div className=" bg-green-400 w-8 h-8 rounded-full flex items-center justify-center">
+                    <Check className="text-white" />
+                  </div>
+                  <p>Unlimited product updates
+                  </p>
+                </li>
+                <li className="flex flex-row items-center gap-3">
+                  <div className=" bg-green-400 w-8 h-8 rounded-full flex items-center justify-center">
+                    <Check className="text-white" />
+                  </div>
+                  <p>Unlimited product updates
+                  </p>
+                </li>
+                <li className="flex flex-row items-center gap-3">
+                  <div className=" bg-green-400 w-8 h-8 rounded-full flex items-center justify-center">
+                    <Check className="text-white" />
+                  </div>
+                  <p>Unlimited product updates
+                  </p>
+                </li>
+                <li className="flex flex-row items-center gap-3">
+                  <div className=" bg-gray-300 w-8 h-8 rounded-full flex items-center justify-center">
+                    <Check className="text-white" />
+                  </div>
+                  <p>
+                    1GB  Cloud storage
+                  </p>
+                </li>
+                <li className="flex flex-row items-center gap-3">
+                  <div className=" bg-gray-300 w-8 h-8 rounded-full flex items-center justify-center">
+                    <Check className="text-white" />
+                  </div>
+                  <p>
+                    Email and community
+                    support
+                  </p>
+                </li>
+              </ul>
+              <button className="bg-sky-400 font-bold px-10 py-4 rounded-lg text-white w-full mt-2">Try for free</button>
+            </div>
+            <div className="border border-sky-400 rounded-xl p-8 w-fit flex flex-col justify-center items-center gap-4">
+              <h2 className="text-3xl font-extrabold">PREMIUM</h2>
+              <p className="text-gray-400 w-[150px] text-center">Organize across all
+                apps by hand</p>
+              <span className="text-sky-400 flex flex-row items-center gap-2">
+                <p className="text-6xl">19.99</p>
+                <span>
+                  <p>$</p>
+                  <p>Per Month</p>
+                </span>
+              </span>
+              <ul className="space-y-3">
+                <li className="flex flex-row items-center gap-3">
+                  <div className=" bg-green-400 w-8 h-8 rounded-full flex items-center justify-center">
+                    <Check className="text-white" />
+                  </div>
+                  <p>Unlimited product updates
+                  </p>
+                </li>
+                <li className="flex flex-row items-center gap-3">
+                  <div className=" bg-green-400 w-8 h-8 rounded-full flex items-center justify-center">
+                    <Check className="text-white" />
+                  </div>
+                  <p>Unlimited product updates
+                  </p>
+                </li>
+                <li className="flex flex-row items-center gap-3">
+                  <div className=" bg-green-400 w-8 h-8 rounded-full flex items-center justify-center">
+                    <Check className="text-white" />
+                  </div>
+                  <p>Unlimited product updates
+                  </p>
+                </li>
+                <li className="flex flex-row items-center gap-3">
+                  <div className=" bg-green-400 w-8 h-8 rounded-full flex items-center justify-center">
+                    <Check className="text-white" />
+                  </div>
+                  <p>Unlimited product updates
+                  </p>
+                </li>
+                <li className="flex flex-row items-center gap-3">
+                  <div className=" bg-gray-300 w-8 h-8 rounded-full flex items-center justify-center">
+                    <Check className="text-white" />
+                  </div>
+                  <p>
+                    1GB  Cloud storage
+                  </p>
+                </li>
+                <li className="flex flex-row items-center gap-3">
+                  <div className=" bg-gray-300 w-8 h-8 rounded-full flex items-center justify-center">
+                    <Check className="text-white" />
+                  </div>
+                  <p>
+                    Email and community
+                    support
+                  </p>
+                </li>
+              </ul>
+              <button className="bg-sky-400 font-bold px-10 py-4 rounded-lg text-white w-full mt-2">Try for free</button>
+            </div>
+          </div>
+
+
+        </section>
 
       </section>
 
