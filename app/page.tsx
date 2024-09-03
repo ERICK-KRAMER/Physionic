@@ -538,10 +538,25 @@ export default function Home() {
             </div>
           </div>
 
-
         </section>
 
       </section>
+
+      <section className="p-16 bg-slate-800 text-white">
+        <div className="mx-auto container flex flex-row justify-around items-center">
+          <div>
+            <h2 className="text-4xl font-bold">Get In Touch</h2>
+            <p className="font-medium text-gray-400">The gradual accumulation of information about atomic and
+              small-scale behaviour during the first quarter of the 20th </p>
+          </div>
+          <div className="rounded-md p-px bg-gray-200 w-fit">
+            <input type="text" className="py-4 pl-2 outline-none rounded-l-md text-black" placeholder="Your email" />
+            <button className="bg-sky-400 px-5 py-4 rounded-r-md">Subscribe</button>
+          </div>
+        </div>
+      </section>
+
+
 
     </>
   );
