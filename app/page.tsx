@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { Form } from "./components/Form";
 import { Header } from "./components/Header";
-import { Check, ChevronRight, Star } from "lucide-react";
+import { Check, ChevronRight, Facebook, Instagram, Star, Twitter } from "lucide-react";
 
 export default function Home() {
   return (
@@ -556,7 +556,57 @@ export default function Home() {
         </div>
       </section>
 
+      <footer className="p-10 pb-3">
 
+        <div className="container mx-auto grid grid-cols-4">
+          <div className="space-y-4">
+            <h2 className="text-3xl font-bold">Get In Touch</h2>
+            <p className="text-gray-400 font-medium">
+              The quick fox jumps over the lazy dog
+            </p>
+            <span className="flex flex-row gap-3">
+              <Facebook className="text-sky-400" />
+              <Instagram className="text-sky-400" />
+              <Twitter className="text-sky-400" />
+            </span>
+          </div>
+
+          <div className="space-y-3">
+            <h2 className="text-3xl font-bold">Company info</h2>
+            <ul className="space-y-3">
+              <li className="text-gray-400 font-medium cursor-pointer">About Us</li>
+              <li className="text-gray-400 font-medium cursor-pointer">Carrier</li>
+              <li className="text-gray-400 font-medium cursor-pointer">We are hiring</li>
+              <li className="text-gray-400 font-medium cursor-pointer">Blog</li>
+            </ul>
+          </div>
+
+          <div className="space-y-3">
+            <h2 className="text-3xl font-bold">Features</h2>
+            <ul className="space-y-3">
+              <li className="text-gray-400 font-medium cursor-pointer">Business Marketing</li>
+              <li className="text-gray-400 font-medium cursor-pointer">User Analytic</li>
+              <li className="text-gray-400 font-medium cursor-pointer">Live Chat</li>
+              <li className="text-gray-400 font-medium cursor-pointer">Unlimited Support</li>
+            </ul>
+          </div>
+
+          <div className="space-y-3">
+            <h2 className="text-3xl font-bold">Resources</h2>
+            <ul className="space-y-3">
+              <li className="text-gray-400 font-medium cursor-pointer">IOS & Android</li>
+              <li className="text-gray-400 font-medium cursor-pointer">Watch a Demo</li>
+              <li className="text-gray-400 font-medium cursor-pointer">Customers</li>
+              <li className="text-gray-400 font-medium cursor-pointer">API</li>
+            </ul>
+          </div>
+        </div>
+
+        <div className="mt-16 flex justify-center items-end">
+          <h2 className=" text-center text-gray-400">Made With Love By Figmaland All Right Reserved </h2>
+        </div>
+
+      </footer>
 
     </>
   );
