@@ -16,7 +16,7 @@ export default function Home() {
 
           <div className=" text-white flex flex-col gap-10 p-10 max-xl:justify-center max-xl:items-center max-md:mb-5">
 
-            <h1 className="text-8xl w-[700px] font-extrabold max-xl:w-[500px] max-xl:text-6xl max-xl:text-center">Meet the Best Hospital</h1>
+            <h1 className="text-8xl w-[700px] font-extrabold max-xl:w-[500px] max-xl:text-6xl max-xl:text-center ">Meet the Best Hospital</h1>
 
             <p className="text-xl font-bold w-[500px] max-xl:w-[300px] max-xl:text-center">We know how large objects will act,
               but things on a small scale.</p>
@@ -38,7 +38,7 @@ export default function Home() {
 
           <h1 className="text-slate-800 text-5xl font-extrabold max-md:text-center">Leading Medicine</h1>
 
-          <p className="text-sm w-[420px] text-center text-gray-400">Problems trying to resolve the conflict between
+          <p className="text-sm w-[420px] text-center text-gray-400 max-md:w-[400px]">Problems trying to resolve the conflict between
             the two major realms of Classical physics: Newtonian mechanics </p>
 
           {/* Card */}
@@ -75,7 +75,7 @@ export default function Home() {
       <section className="container mx-auto p-10 ">
         <div className="flex flex-col items-center justify-center space-y-4 max-md:text-center">
           <h1 className="text-slate-800 text-5xl font-extrabold">Leading Medicine</h1>
-          <p className="text-sm w-[420px] text-center text-gray-400">Problems trying to resolve the conflict between
+          <p className="text-sm w-[420px] text-center text-gray-400 max-md:w-[400px]">Problems trying to resolve the conflict between
             the two major realms of Classical physics: Newtonian mechanics </p>
         </div>
 
@@ -92,7 +92,7 @@ export default function Home() {
       <section className="container mx-auto p-10">
         <div className="space-y-4 flex flex-col justify-center items-center">
           <h1 className="text-slate-800 text-5xl font-extrabold ">FAQ</h1>
-          <p className="text-sm w-[420px] text-center text-gray-400">Problems trying to resolve the conflict between
+          <p className="text-sm w-[420px] text-center text-gray-400 max-md:w-[400px]">Problems trying to resolve the conflict between
             the two major realms of Classical physics: Newtonian mechanics </p>
         </div>
 
@@ -131,7 +131,7 @@ export default function Home() {
 
         <div className="space-y-4 flex flex-col justify-center items-center">
           <h1 className="text-slate-800 text-5xl font-extrabold">Pricing</h1>
-          <p className="text-sm w-[420px] text-center text-gray-400">Problems trying to resolve the conflict between
+          <p className="text-sm w-[420px] text-center text-gray-400 max-md:w-[400px]">Problems trying to resolve the conflict between
             the two major realms of Classical physics: Newtonian mechanics </p>
         </div>
 
@@ -152,7 +152,7 @@ export default function Home() {
         <div className="mx-auto container flex flex-row justify-around items-center max-md:flex-col max-md:gap-7">
           <div className="max-md:space-y-4 text-center">
             <h2 className="text-4xl font-bold">Get In Touch</h2>
-            <p className="font-medium text-gray-400 w-[500px]">The gradual accumulation of information about atomic and
+            <p className="font-medium text-gray-400 w-[500px] max-md:w-[400px]">The gradual accumulation of information about atomic and
               small-scale behaviour during the first quarter of the 20th </p>
           </div>
           <div className="rounded-md p-px bg-gray-200 w-fit">
