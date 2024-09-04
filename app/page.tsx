@@ -9,7 +9,7 @@ import { CardPricing } from "./components/Card_Pricing/CardPricing";
 export default function Home() {
   return (
     <>
-      <section className="bg-background h-screen bg-no-repeat bg-cover max-xl:h-[130vh]">
+      <section className="bg-background_banner h-screen bg-no-repeat bg-cover max-xl:h-[130vh]">
         <Header />
 
         <div className=" md:container md:mx-auto flex flex-row justify-between px-20 items-center mt-20 max-xl:flex-col max-xl:justify-between overflow-hidden max-xl:mt-5 max-xl:items-center">

@@ -1,6 +1,11 @@
+"use client"
+
 import { ArrowRight, Menu } from "lucide-react";
+import { useState } from "react";
+import { Sheet, SheetContent, SheetDescription, SheetHeader, SheetTitle, SheetTrigger } from "./ui/sheet";
 
 export function Header() {
+
     return (
         <header className="flex flex-row justify-between items-center pt-3 container mx-auto text-white max-md:p-6">
 
@@ -16,9 +21,28 @@ export function Header() {
 
             <button className="bg-sky-400 px-6 py-4 text-center flex flex-row gap-4 rounded-md text-white font-medium max-md:hidden">Get Quote Now <ArrowRight /></button>
 
-            <button className="md:hidden">
-                <Menu size={30} />
-            </button>
+            <Sheet>
+                <SheetTrigger className="md:hidden">
+                    <button >
+                        <Menu size={30} />
+                    </button>
+                </SheetTrigger>
+                <SheetContent>
+                    <SheetHeader>
+                        <SheetDescription>
+
+                            <ul className=" text-2xl space-y-5 mt-10">
+                                <li>Home</li>
+                                <li>Product</li>
+                                <li>Pricing</li>
+                                <li>Contact</li>
+                            </ul>
+
+                        </SheetDescription>
+                    </SheetHeader>
+                </SheetContent>
+            </Sheet>
+
         </header>
     )
 }
