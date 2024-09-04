@@ -3,6 +3,7 @@ import { Form } from "./components/Form";
 import { Header } from "./components/Header";
 import { Check, ChevronRight, Facebook, Instagram, Star, Twitter } from "lucide-react";
 import { Card } from "./components/Product_Card";
+import { CardComment } from "./components/Medicine_doc/Card";
 
 export default function Home() {
   return (
@@ -79,130 +80,13 @@ export default function Home() {
 
         {/* card */}
         <div className="flex flex-row gap-4 mt-10 justify-center items-center">
-          <div className="border border-gray-200 rounded-md p-5 space-y-3">
-            <span className="flex flex-row">
-              <Image
-                alt="star"
-                src="/star.svg"
-                width={20}
-                height={20}
-              />
-              <Image
-                alt="star"
-                src="/star.svg"
-                width={20}
-                height={20}
-              />
-              <Image
-                alt="star"
-                src="/star.svg"
-                width={20}
-                height={20}
-              />
-              <Image
-                alt="star"
-                src="/star.svg"
-                width={20}
-                height={20}
-              />
-              <Star className="text-orange-200" size={22} />
-            </span>
-            <p className="w-[250px] text-sm text-gray-400">
-              Slate helps you see how many
-              more days you need to work to
-              reach your financial goal.
-            </p>
-            <Image
-              src={'user.svg'}
-              alt="user"
-              width={40}
-              height={40}
-            />
-          </div>
+          <CardComment comment="Slate helps you see how many more days you need to work to reach your financial goal." />
 
-          <div className="border border-gray-200 rounded-md p-5 space-y-3">
-            <span className="flex flex-row">
-              <Image
-                alt="star"
-                src="/star.svg"
-                width={20}
-                height={20}
-              />
-              <Image
-                alt="star"
-                src="/star.svg"
-                width={20}
-                height={20}
-              />
-              <Image
-                alt="star"
-                src="/star.svg"
-                width={20}
-                height={20}
-              />
-              <Image
-                alt="star"
-                src="/star.svg"
-                width={20}
-                height={20}
-              />
-              <Star className="text-orange-200" size={22} />
-            </span>
-            <p className="w-[250px] text-sm text-gray-400">
-              Slate helps you see how many
-              more days you need to work to
-              reach your financial goal.
-            </p>
-            <Image
-              src={'user.svg'}
-              alt="user"
-              width={40}
-              height={40}
-            />
-          </div>
+          <CardComment comment="Slate helps you see how many more days you need to work to reach your financial goal." />
 
-          <div className="border border-gray-200 rounded-md p-5 space-y-3">
-            <span className="flex flex-row">
-              <Image
-                alt="star"
-                src="/star.svg"
-                width={20}
-                height={20}
-              />
-              <Image
-                alt="star"
-                src="/star.svg"
-                width={20}
-                height={20}
-              />
-              <Image
-                alt="star"
-                src="/star.svg"
-                width={20}
-                height={20}
-              />
-              <Image
-                alt="star"
-                src="/star.svg"
-                width={20}
-                height={20}
-              />
-              <Star className="text-orange-200" size={22} />
-            </span>
-            <p className="w-[250px] text-sm text-gray-400">
-              Slate helps you see how many
-              more days you need to work to
-              reach your financial goal.
-            </p>
-            <Image
-              src={'user.svg'}
-              alt="user"
-              width={40}
-              height={40}
-            />
-          </div>
+          <CardComment comment="Slate helps you see how many more days you need to work to reach your financial goal." />
         </div>
-      </section>
+      </section >
 
       <section className="container mx-auto p-10">
         <div className="space-y-4 flex flex-col justify-center items-center">
