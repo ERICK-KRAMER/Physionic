@@ -4,6 +4,7 @@ import { Header } from "./components/Header";
 import { Check, ChevronRight, Facebook, Instagram, Star, Twitter } from "lucide-react";
 import { Card } from "./components/Product_Card";
 import { CardComment } from "./components/Medicine_doc/Card";
+import { FAQ } from "./components/FAQ";
 
 export default function Home() {
   return (
@@ -96,69 +97,33 @@ export default function Home() {
         </div>
 
         <div className="grid grid-cols-3 place-items-center mt-20 ">
-          <div className="relative w-fit p-8 py-4">
-            <ChevronRight className="text-sky-400 absolute top-3 left-1" />
-            <h3 className="text-lg font-bold text-slate-800 w-[230px]">The quick fox jumps over the
-              lazy dog</h3>
-            <p className="text-sm text-gray-400 w-[180px]">Things on a very small scale
-              behave like nothing</p>
-          </div>
-          <div className="relative w-fit p-8 py-4">
-            <ChevronRight className="text-sky-400 absolute top-3 left-1" />
-            <h3 className="text-lg font-bold text-slate-800 w-[230px]">The quick fox jumps over the
-              lazy dog</h3>
-            <p className="text-sm text-gray-400 w-[180px]">Things on a very small scale
-              behave like nothing</p>
-          </div>
-          <div className="relative w-fit p-8 py-4">
-            <ChevronRight className="text-sky-400 absolute top-3 left-1" />
-            <h3 className="text-lg font-bold text-slate-800 w-[230px]">The quick fox jumps over the
-              lazy dog</h3>
-            <p className="text-sm text-gray-400 w-[180px]">Things on a very small scale
-              behave like nothing</p>
-          </div>
-          <div className="relative w-fit p-8 py-4">
-            <ChevronRight className="text-sky-400 absolute top-3 left-1" />
-            <h3 className="text-lg font-bold text-slate-800 w-[230px]">The quick fox jumps over the
-              lazy dog</h3>
-            <p className="text-sm text-gray-400 w-[180px]">Things on a very small scale
-              behave like nothing</p>
-          </div>
-          <div className="relative w-fit p-8 py-4">
-            <ChevronRight className="text-sky-400 absolute top-3 left-1" />
-            <h3 className="text-lg font-bold text-slate-800 w-[230px]">The quick fox jumps over the
-              lazy dog</h3>
-            <p className="text-sm text-gray-400 w-[180px]">Things on a very small scale
-              behave like nothing</p>
-          </div>
-          <div className="relative w-fit p-8 py-4">
-            <ChevronRight className="text-sky-400 absolute top-3 left-1" />
-            <h3 className="text-lg font-bold text-slate-800 w-[230px]">The quick fox jumps over the
-              lazy dog</h3>
-            <p className="text-sm text-gray-400 w-[180px]">Things on a very small scale
-              behave like nothing</p>
-          </div>
-          <div className="relative w-fit p-8 py-4">
-            <ChevronRight className="text-sky-400 absolute top-3 left-1" />
-            <h3 className="text-lg font-bold text-slate-800 w-[230px]">The quick fox jumps over the
-              lazy dog</h3>
-            <p className="text-sm text-gray-400 w-[180px]">Things on a very small scale
-              behave like nothing</p>
-          </div>
-          <div className="relative w-fit p-8 py-4">
-            <ChevronRight className="text-sky-400 absolute top-3 left-1" />
-            <h3 className="text-lg font-bold text-slate-800 w-[230px]">The quick fox jumps over the
-              lazy dog</h3>
-            <p className="text-sm text-gray-400 w-[180px]">Things on a very small scale
-              behave like nothing</p>
-          </div>
-          <div className="relative w-fit p-8 py-4">
-            <ChevronRight className="text-sky-400 absolute top-3 left-1" />
-            <h3 className="text-lg font-bold text-slate-800 w-[230px]">The quick fox jumps over the
-              lazy dog</h3>
-            <p className="text-sm text-gray-400 w-[180px]">Things on a very small scale
-              behave like nothing</p>
-          </div>
+          <FAQ.Root title="The quick fox jumps over the lazy dog">
+            <FAQ.Comment subject="Things on a very small scale behave like nothing" />
+          </FAQ.Root>
+          <FAQ.Root title="The quick fox jumps over the lazy dog">
+            <FAQ.Comment subject="Things on a very small scale behave like nothing" />
+          </FAQ.Root>
+          <FAQ.Root title="The quick fox jumps over the lazy dog">
+            <FAQ.Comment subject="Things on a very small scale behave like nothing" />
+          </FAQ.Root>
+          <FAQ.Root title="The quick fox jumps over the lazy dog">
+            <FAQ.Comment subject="Things on a very small scale behave like nothing" />
+          </FAQ.Root>
+          <FAQ.Root title="The quick fox jumps over the lazy dog">
+            <FAQ.Comment subject="Things on a very small scale behave like nothing" />
+          </FAQ.Root>
+          <FAQ.Root title="The quick fox jumps over the lazy dog">
+            <FAQ.Comment subject="Things on a very small scale behave like nothing" />
+          </FAQ.Root>
+          <FAQ.Root title="The quick fox jumps over the lazy dog">
+            <FAQ.Comment subject="Things on a very small scale behave like nothing" />
+          </FAQ.Root>
+          <FAQ.Root title="The quick fox jumps over the lazy dog">
+            <FAQ.Comment subject="Things on a very small scale behave like nothing" />
+          </FAQ.Root>
+          <FAQ.Root title="The quick fox jumps over the lazy dog">
+            <FAQ.Comment subject="Things on a very small scale behave like nothing" />
+          </FAQ.Root>
         </div>
       </section>
 
