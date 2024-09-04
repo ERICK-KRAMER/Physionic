@@ -1,7 +1,6 @@
-import Image from "next/image";
 import { Form } from "./components/Form";
 import { Header } from "./components/Header";
-import { Check, ChevronRight, Facebook, Instagram, Star, Twitter } from "lucide-react";
+import { Facebook, Instagram, Twitter } from "lucide-react";
 import { Card } from "./components/Product_Card";
 import { CardComment } from "./components/Medicine_doc/Card";
 import { FAQ } from "./components/FAQ";
@@ -37,13 +36,13 @@ export default function Home() {
       <section className="container mx-auto p-16 space-y-4">
         <div className="space-y-4 flex flex-col justify-center items-center">
 
-          <h1 className="text-slate-800 text-5xl font-extrabold">Leading Medicine</h1>
+          <h1 className="text-slate-800 text-5xl font-extrabold max-md:text-center">Leading Medicine</h1>
 
           <p className="text-sm w-[420px] text-center text-gray-400">Problems trying to resolve the conflict between
             the two major realms of Classical physics: Newtonian mechanics </p>
 
           {/* Card */}
-          <div className="flex flex-row gap-10 p-6 mt-10">
+          <div className="flex flex-row gap-10 p-6 mt-10 max-md:flex-col">
 
             <Card.Root name="Emergency Case">
               <Card.Item item="-  The best products start with Figma" />
@@ -74,14 +73,14 @@ export default function Home() {
       </section>
 
       <section className="container mx-auto p-10 ">
-        <div className="flex flex-col items-center justify-center space-y-4">
+        <div className="flex flex-col items-center justify-center space-y-4 max-md:text-center">
           <h1 className="text-slate-800 text-5xl font-extrabold">Leading Medicine</h1>
           <p className="text-sm w-[420px] text-center text-gray-400">Problems trying to resolve the conflict between
             the two major realms of Classical physics: Newtonian mechanics </p>
         </div>
 
         {/* card */}
-        <div className="flex flex-row gap-4 mt-10 justify-center items-center">
+        <div className="flex flex-row gap-4 mt-10 justify-center items-center max-md:flex-col">
           <CardComment comment="Slate helps you see how many more days you need to work to reach your financial goal." />
 
           <CardComment comment="Slate helps you see how many more days you need to work to reach your financial goal." />
@@ -97,7 +96,7 @@ export default function Home() {
             the two major realms of Classical physics: Newtonian mechanics </p>
         </div>
 
-        <div className="grid grid-cols-3 place-items-center mt-20 ">
+        <div className="grid grid-cols-3 place-items-center mt-20 max-md:grid-cols-1">
           <FAQ.Root title="The quick fox jumps over the lazy dog">
             <FAQ.Comment subject="Things on a very small scale behave like nothing" />
           </FAQ.Root>
@@ -136,7 +135,7 @@ export default function Home() {
             the two major realms of Classical physics: Newtonian mechanics </p>
         </div>
 
-        <div className="flex flex-row items-end justify-center gap-1 mt-5">
+        <div className="flex flex-row items-end justify-center gap-1 mt-5 max-md:flex-col max-md:items-center max-md:gap-3">
 
           <CardPricing type={"Free"} title={"Organize across all apps by hand"} price={0} />
 
@@ -150,8 +149,8 @@ export default function Home() {
 
 
       <section className="p-16 bg-slate-800 text-white mt-10">
-        <div className="mx-auto container flex flex-row justify-around items-center">
-          <div>
+        <div className="mx-auto container flex flex-row justify-around items-center max-md:flex-col max-md:gap-7">
+          <div className="max-md:space-y-4 text-center">
             <h2 className="text-4xl font-bold">Get In Touch</h2>
             <p className="font-medium text-gray-400 w-[500px]">The gradual accumulation of information about atomic and
               small-scale behaviour during the first quarter of the 20th </p>
@@ -163,9 +162,9 @@ export default function Home() {
         </div>
       </section>
 
-      <footer className="p-10 pb-3">
+      <footer className="p-10 pb-3 ">
 
-        <div className="container mx-auto grid grid-cols-4">
+        <div className="container mx-auto grid grid-cols-4 max-md:grid-cols-1 max-md:gap-4">
           <div className="space-y-4">
             <h2 className="text-3xl font-bold">Get In Touch</h2>
             <p className="text-gray-400 font-medium">
